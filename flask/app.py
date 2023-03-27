@@ -21,6 +21,7 @@ def add_nota():
     db.commit()
     return jsonify({'message': 'Nota adicionada com sucesso'})
 
+
 #Read
 @app.route('/api/notas', methods=['GET'])
 def get_notas():
